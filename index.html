@@ -9,15 +9,13 @@
     <header class="main-header">
       <div class="logo">Техномарт</div>
       <div class="search">
-        <p>Поиск</p>
+        <a class="search" href="#">Поиск</a>
       </div>
-      <nav class="user-nav">
-        <ul>
-          <li><a>Закладки: 0</a></li>
-          <li><a>Корзина: 0</a></li>
-          <li><a>Оформить заказ</a></li>
+        <ul class="user-nav">
+          <li><a href="#">Закладки: 0</a></li>
+          <li><a href="#">Корзина: 0</a></li>
+          <li><a href="#">Оформить заказ</a></li>
         </ul>
-      </nav>
       <h1>Интернет-магазин<br>
         строительных материалов<br>
         и инструментов для ремонта</h1>
@@ -41,17 +39,23 @@
     </header>
   <main>
     <section class="promo-section">
-      <article class="promo promo-materials">
-        <h4>Материалы</h4>
-        <p>на любой вкус</p>
+      <article class="promo-materials">
+        <a class="promo" href="#">
+          <h2>Материалы</h2>
+          <p>на любой вкус</p>
+        </a>
       </article>
-      <article class="promo promo-instrument">
-        <h4>Инструмент</h4>
-        <p>на все случаи</p>
+      <article class="promo-instrument">
+        <a class="promo" href="#">
+          <h2>Инструмент</h2>
+          <p>на все случаи</p>
+        </a>
       </article>
-      <article class="promo promo-technique">
-        <h4>Техника</h4>
-        <p>для стройки</p>
+      <article class="promo-technique">
+        <a class="promo" href="#">
+          <h2>Техника</h2>
+          <p>для стройки</p>
+        </a>
       </article>
       <section class="gallery">
         <div class="slide1">
@@ -59,35 +63,39 @@
           <h1>Перфораторы</h1>
           <p>Настоящие мужские игрушки</p>
           <a class="btn" href="#">открыть каталог</a>
-          <a class="slide-btn-next"></a>
-          <a class="slide-btn-previous"></a>
+          <a href="#" class="slide-btn-next"></a>
+          <a href="#" class="slide-btn-previous"></a>
         </div>
         <div class="slide2">
           <img src="img/gallery-2.jpg" width="620" height="266" alt="Slider Image">
           <h1>Дрели</h1>
           <p>Соседям на радость!</p>
           <a class="btn" href="#">открыть каталог</a>
-          <a class="slide-btn-next"></a>
-          <a class="slide-btn-previous"></a>
+          <a class="slide-btn-next" href="#"></a>
+          <a class="slide-btn-previous" href="#"></a>
         </div>
       </section>
-      <article class="promo promo-sale">
-        <h4>Скидки</h4>
-        <p>на 350 товаров</p>
+      <article class="promo-sale">
+        <a class="promo" href="#">
+          <h2>Скидки</h2>
+          <p>на 350 товаров</p>
+        </a>
       </article>
-      <article class="promo promo-delivery">
-        <h4>Доставка</h4>
-        <p>бесплатно</p>
+      <article class="promo-delivery">
+        <a class="promo" href="#">
+          <h2>Доставка</h2>
+          <p>бесплатно</p>
+        </a>
       </article>
     </section>
     <section class="popular">
-      <h2>популярные товары:</h2>
+      <h3>популярные товары:</h3>
       <a class="btn" href="#">все популярные товары</a>
       <article class="popular-item">
         <a class="catalog-item" href="#">
           <img src="img/popular-1.jpg" width="218" height="158" alt="instrument">
-          <h3>Перфоратор BOSCH
-            BFG 9000</h3>
+          <h4>Перфоратор BOSCH
+            BFG 9000</h4>
           <p class="old-price">32500 P.</p>
           <p class="new-price">25500 P.</p>
         </a>
@@ -95,8 +103,8 @@
       <article class="popular-item">
         <a class="catalog-item" href="#">
           <img src="img/popular-2.jpg" width="218" height="158" alt="instrument">
-          <h3>Перфоратор BOSCH
-            BFG 3000</h3>
+          <h4>Перфоратор BOSCH
+            BFG 3000</h4>
           <p class="old-price">22500 P.</p>
           <p class="new-price">15500 P.</p>
         </a>
@@ -104,8 +112,8 @@
       <article class="popular-item">
         <a class="catalog-item" href="#">
           <img src="img/popular-3.jpg" width="218" height="158" alt="instrument">
-          <h3>Перфоратор BOSCH
-            BFG 6000</h3>
+          <h4>Перфоратор BOSCH
+            BFG 6000</h4>
           <p class="old-price">30500 P.</p>
           <p class="new-price">25500 P.</p>
         </a>
@@ -113,14 +121,14 @@
       <article class="popular-item">
         <a class="catalog-item" href="#">
           <img src="img/popular-2.jpg" width="218" height="158" alt="instrument">
-          <h3>Перфоратор BOSCH
-            BFG 2000</h3>
+          <h4>Перфоратор BOSCH
+            BFG 2000</h4>
           <p class="new-price">12500 P.</p>
         </a>
       </article>
     </section>
     <section class="popular-brands">
-      <h2>Популярные производители: </h2>
+      <h3>Популярные производители: </h3>
       <a class="btn" href="#">все производители</a>
       <a class="brand" href="#">
         <img src="img/brand-bosch.jpg" width="126" height="37" alt="Bosch">
@@ -153,20 +161,20 @@
         Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
       <ul>
         <li>
-          <h5>доставка</h5>
+          <h2>доставка</h2>
           <p>Мы с удовольствием доставим ваш товар прямо
             к вашему подъезду совершенно бесплатно!
             Ведь мы неплохо заработаем,
             поднимая его на ваш этаж!</p>
         </li>
         <li>
-          <h5>Гарантия</h5>
+          <h2>Гарантия</h2>
           <p>Если купленный у нас товар поломается или заискрит,
-            а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в             нашей гарантии. Мы обменяем сгоревший товар на новый.
+            а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в                      нашей гарантии. Мы обменяем сгоревший товар на новый.
             Дом уж восстановите как-нибудь сами.</p>
         </li>
         <li>
-          <h5>кредит</h5>
+          <h2>кредит</h2>
           <p>Залезть в долговую яму стало проще!
             Кредитные консультанты придут вам на помощь.</p>
           <a class="btn" href="#">Отправить заявку</a>
@@ -175,7 +183,7 @@
     </section>
     <section class="about-us">
       <h1>КОМПАНИЯ «Техномарт»</h1>
-      <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства         не оставит равнодушными любителей сэкномить на гастарбайтерах.</p>
+      <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства                   не оставит равнодушными любителей сэкномить на гастарбайтерах.</p>
       <p>Мы можем доставить ваш товар в самые отдаленные точки России!
         Техномарт работает со многими транспортными компаниями: </p>
       <ul>
@@ -189,8 +197,20 @@
       <h1>КОНТАКТЫ</h1>
       <p>Вы можете забрать товар сами,
         заехав в наш офис:</p>
-      <img src="http://placehold.it/150x100">
+      <img src="img/map.jpg" width="300" height="158" alt="Map">
       <a class="btn" href="#">Заблудились? Напишите нам!</a>
+        <div class="write-to-us">
+          <form action="https://echo.htmlacademy.ru" method="get">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" placeholder="Представьтесь, пожалуйста">
+            <label for="email">Ваш e-mail:  </label>
+            <input type="text" id="email" name="email" placeholder="Для отправки ответа">
+            <label for="user-text">Текст письма:</label>
+            <textarea id="user-text" name="user-text" placeholder="В свободной форме"></textarea>
+            <button class="button" type="submit">отправить</button>
+          </form>
+          <button class="modal-close" type="button">Закрыть</button>
+        </div>
     </section>
   </main>
   <footer class="main-footer">
