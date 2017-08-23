@@ -1,33 +1,33 @@
 @font-face {
-  font-family: 'cuprumbold';
-  src: url('cuprum-bold-webfont.woff2') format('woff2'),
-  url('cuprum-bold-webfont.woff') format('woff');
+  font-family: "cuprumbold";
+  src: url("../fonts/cuprum-bold-webfont.woff2") format("woff2"),
+  url("../fonts/cuprum-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 
 }
 
 @font-face {
-  font-family: 'cuprumbold_italic';
-  src: url('cuprum-bolditalic-webfont.woff2') format('woff2'),
-  url('cuprum-bolditalic-webfont.woff') format('woff');
+  font-family: "cuprumbold_italic";
+  src: url("../fonts/cuprum-bolditalic-webfont.woff2") format("woff2"),
+  url("../fonts/cuprum-bolditalic-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 
 }
 
 @font-face {
-  font-family: 'cuprumitalic';
-  src: url('cuprum-italic-webfont.woff2') format('woff2'),
-  url('cuprum-italic-webfont.woff') format('woff');
+  font-family: "cuprumitalic";
+  src: url("../fonts/cuprum-italic-webfont.woff2") format("woff2"),
+  url("../fonts/cuprum-italic-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 
 }
 @font-face {
-  font-family: 'cuprumregular';
-  src: url('cuprum-regular-webfont.woff2') format('woff2'),
-  url('cuprum-regular-webfont.woff') format('woff');
+  font-family: "cuprumregular";
+  src: url("../fonts/cuprum-regular-webfont.woff2") format("woff2"),
+  url("../fonts/cuprum-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
