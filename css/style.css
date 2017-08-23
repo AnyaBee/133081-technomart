@@ -1,37 +1,3 @@
-@font-face {
-  font-family: "cuprumbold";
-  src: url("../fonts/cuprum-bold-webfont.woff2") format("woff2"),
-  url("../fonts/cuprum-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: "cuprumbold_italic";
-  src: url("../fonts/cuprum-bolditalic-webfont.woff2") format("woff2"),
-  url("../fonts/cuprum-bolditalic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: "cuprumitalic";
-  src: url("../fonts/cuprum-italic-webfont.woff2") format("woff2"),
-  url("../fonts/cuprum-italic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-
-}
-@font-face {
-  font-family: "cuprumregular";
-  src: url("../fonts/cuprum-regular-webfont.woff2") format("woff2"),
-  url("../fonts/cuprum-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
