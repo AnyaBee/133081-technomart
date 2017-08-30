@@ -88,17 +88,25 @@ a {
 .search input {
   margin: 0;
   padding: 0;
+  width: 270px;
+  height: 42px;
+  padding-left: 48px;
   background-color: #293449;
   color: #ffffff;
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
+  line-height: 24px;
   border: none;
-  padding-top: 12px;
-  margin-left: 47px;
+  background-image: url("../img/icon-search-regular.svg");
+  background-repeat: no-repeat;
+  background-position: 17px 12px;
 }
 
 .search input:hover {
   background-color: #212a3a;
+  background-image: url("../img/icon-search.svg");
+  background-repeat: no-repeat;
+  background-position: 17px 12px;
 }
 
 .search input::-webkit-input-placeholder {
@@ -118,37 +126,23 @@ a {
   color: #ffffff;
 }
 
-.search button {
-  position: absolute;
-  left: 17px;
-  top: 13px;
-  background: none;
-  border: none;
-  outline: none;
-  margin: 0;
-  padding: 0;
-  width: auto;
-  height: auto;
-  opacity: 0.5;
-}
-
-.search button:hover {
-  opacity: 1;
-}
-
-.search button:active {
-  background-image: url("../img/icon-search-focus.svg");
-}
-
 .search input:focus {
   background-color: #ffffff;
   color: #000000;
+  background-image: url("../img/icon-search-focus.svg");
+  background-repeat: no-repeat;
+  background-position: 17px 12px;
 }
 
 .cart {
   width: 150px;
   position: relative;
 }
+
+.cart-full {
+  background-color: #ee3643;
+}
+
 .cart a {
   padding-left: 50px;
 }
@@ -259,8 +253,7 @@ a {
   color: #ee3643;
   font-style: italic;
   font-weight: normal;
-  padding-left: 42px;
-  padding-right: 45px;
+  padding-left: 50px;
 }
 
 .services h1 {
@@ -270,16 +263,20 @@ a {
   color: #000000;
 }
 
-.contact-details,
-.login-block,
 .main-header h1 {
   width: 300px;
 }
+.contact-details {
+  width: 265px;
+}
+.login-block {
+  width: 280px;
+}
 
 .contact-details {
-  padding-right: 30px;
   display: flex;
   flex-direction: column;
+  margin-right: 50px;
 }
 
 a.phone {
@@ -300,7 +297,8 @@ a.phone {
   color: #3d546e;
 }
 
-.login-block a {
+.login-block a.login,
+.login-block a.register {
   background-color: #ffffff;
   color: #000000;
   font-family: "Cuprum", Arial, sans-serif;
@@ -309,19 +307,20 @@ a.phone {
   padding-top: 12px;
   padding-bottom: 12px;
 }
-
+/*
 .login-block {
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
   text-align: center;
 }
-
+*/
 .login {
   width: 121px;
   margin-right: 10px;
   position: relative;
-  padding-left: 29px;
+  display: inline-block;
+  padding-left: 50px;
 }
 
 .login::before {
@@ -341,16 +340,35 @@ a.phone {
 .login:active::before {
   background-image: url("../img/icon-login.svg");
 }
-.login-block a:hover {
+.login-block a.login:hover,
+.login-block a.register:hover{
   color: #ee3643;
 }
 
-.login-block a:active {
+.login-block a.login:active,
+.login-block. a.register:active {
   color: #c5c5c5;
 }
 
 .register {
   width: 150px;
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.my-orders,
+.my-account {
+  display: inline-block;
+}
+.my-profile {
+  width: 300px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .main-nav {

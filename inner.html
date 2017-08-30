@@ -1,34 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Каталог</title>
+  <meta charset="utf-8">
+  <title>Техномарт</title>
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7CPT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
-  <header class="main-header">
-    <div class="logo">Техномарт</div>
-    <div class="search">
-      <a class="search" href="#">Поиск</a>
+<header class="main-header">
+  <div class="header-top-wrapper">
+    <div class="container">
+      <div class="logo-header">Техномарт</div>
+      <div class="search">
+        <form>
+          <label>
+            <input type="search" name="q" placeholder="Поиск:">
+          </label>
+        </form>
+      </div>
+      <ul class="user-nav">
+        <li class="bookmarks" ><a href="#">Закладки: 0</a></li>
+        <li class="cart cart-full"><a href="#">Корзина: 10</a></li>
+        <li class="checkout"><a href="#">Оформить заказ</a></li>
+      </ul>
     </div>
-    <ul class="user-nav">
-      <li><a href="#">Закладки: 0</a></li>
-      <li><a href="#">Корзина: 10</a></li>
-      <li><a href="#">Оформить заказ</a></li>
-    </ul>
+  </div>
+  <div class="header-middle-wrapper">
     <h1>Интернет-магазин<br>
       строительных материалов<br>
       и инструментов для ремонта</h1>
-    <a class="phone" href="tel:0078125550555">+7 (812) 555-05-55</a>
-    <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-    <div class="login-block">
-      <p>Равшан Джамшутович</p>
-      <a href="#">Logout</a>
-      <a href="#">Мои заказы</a>
-      <a href="#">Личный кабинет</a>
+    <div class="contact-details">
+      <a class="phone" href="tel:0078125550555">+7 (812) 555-05-55</a>
+      <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
     </div>
+    <div class="login-block">
+      <div class="my-profile">
+        <a href="#"></a>
+        <a href="#">Равшан Джамшутович</a>
+        <a href="#">Logout</a>
+      </div>
+      <a class="my-orders" href="#">Мои заказы</a>
+      <a class="my-account" href="#">Личный кабинет</a>
+    </div>
+  </div>
     <nav class="main-nav">
       <ul>
         <li class="main-nav-item"><a href="#">Главная</a></li>
@@ -40,7 +55,7 @@
         <li class="main-nav-item"><a href="#">Контакты</a></li>
       </ul>
     </nav>
-  </header>
+</header>
   <main>
     <ul class="breadcrumbs">
       <li><a href="#"></a>Home</li>
