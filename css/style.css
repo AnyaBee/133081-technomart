@@ -904,6 +904,7 @@ a.brand {
 .tabs:hover {
   background-color: #293449;
 }
+
 .tabs:active,
 .tabs.active {
   background-color: #ffffff;
