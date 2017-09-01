@@ -57,6 +57,9 @@ a {
 .header-top-wrapper .logo-header:active {
   background-color: #ba2732;
 }
+.logo-header a {
+  color: #ffffff;
+}
 
 .logo-header::after {
   position: absolute;
@@ -706,6 +709,11 @@ a.btn {
   text-align: center;
 }
 
+.catalog-item img,
+.popular-item img {
+  margin-bottom: 10px;
+}
+
 .popular-item p.old-price,
 .catalog-item p.old-price {
   font-family: "PT Sans", Tahoma, sans-serif;
@@ -1238,6 +1246,12 @@ a.tabs:first-of-type::after {
   margin-bottom: 22px;
 }
 
+.wrapper-second {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .logo {
   width: 220px;
 }
@@ -1283,18 +1297,20 @@ a.tabs:first-of-type::after {
 
 .footer-wrapper {
   background-color: #33445a;
+  padding-bottom: 28px;
 }
 
 .footer-copyright {
   margin-right: 10px;
   margin-left: 10px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 20px;
 }
 
 .footer-copyright p.copyright {
   width: 240px;
-  margin-right: 50px;
+  margin-right: 80px;
 }
 
 .footer-copyright .social {
@@ -1302,6 +1318,7 @@ a.tabs:first-of-type::after {
   padding: 0;
   width: 300px;
   margin-right: 50px;
+  align-self: center;
 }
 
 .footer-copyright .social a {
@@ -1343,6 +1360,7 @@ a.tabs:first-of-type::after {
 
 .created-by {
   width: 300px;
+  justify-content: space-between;
 }
 
 .footer-copyright p {
@@ -1352,6 +1370,7 @@ a.tabs:first-of-type::after {
 
 .footer-copyright .social {
   list-style: none;
+  text-align: center;
 }
 
 .created-by a {
@@ -1459,6 +1478,7 @@ a.tabs:first-of-type::after {
 .catalog-container {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 .catalog-item {
@@ -1698,6 +1718,7 @@ a.tabs:first-of-type::after {
 
 .filters fieldset:last-of-type {
   border: 0;
+  margin-bottom: 55px;
 }
 
 .range {
@@ -1745,7 +1766,6 @@ a.tabs:first-of-type::after {
 .filters [type="checkbox"]:checked + .fake-input:before {
   opacity: 1;
   background-image: url("../img/checkbox-on.svg");
-  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -1761,7 +1781,7 @@ a.tabs:first-of-type::after {
 
 .producers label,
 .energy-supply label {
-  flex-basis: 37px;
+  flex-basis: 40px;
 }
 
 .filters .fake-radio {
@@ -1818,7 +1838,7 @@ a.tabs:first-of-type::after {
   cursor: pointer;
 }
 .pagination {
-
+  margin-bottom:60px;
 }
 
 .pagination-button {
@@ -1852,4 +1872,20 @@ a.tabs:first-of-type::after {
 .pagination-button:active,
 .pagination .next:active {
   border: 1px solid #ee3643;
+}
+
+.filters .product-brands {
+  padding-top: 15px;
+}
+
+.filters .energy {
+  padding-top:20px;
+}
+
+.column p {
+  margin-bottom: 0;
+}
+
+.column {
+  align-self: flex-start;
 }
