@@ -1045,6 +1045,7 @@ a.tabs:first-of-type::after {
 .about-us p {
   padding-bottom: 10px;
 }
+
 .about-us p:last-of-type {
   padding-bottom: 0;
 }
@@ -1330,7 +1331,6 @@ a.tabs:first-of-type::after {
   background-color: #212a3a;
   border-radius: 50%;
 }
-
 
 .social a.vk {
   background-image: url("../img/icon-vk.svg");
