@@ -560,8 +560,8 @@ ul li.main-nav-item {
   padding: 0;
   display: block;
   position: relative;
-
 }
+
 .promo p {
   margin-top: 0;
   margin-left: 23px;
@@ -575,12 +575,15 @@ ul li.main-nav-item {
   background-color: rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
 }
+
 .promo p:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
+
 .promo p:active {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
 .gallery h1 {
   position: absolute;
   top: 23px;
@@ -594,6 +597,7 @@ ul li.main-nav-item {
   text-transform: uppercase;
   font-weight: bold;
 }
+
 .gallery p {
   position: absolute;
   top: 50px;
@@ -603,6 +607,7 @@ ul li.main-nav-item {
   font-size: 18px;
   line-height: 24px;
 }
+
 .gallery {
   position: relative;
   margin: 10px;
@@ -651,6 +656,7 @@ a.btn {
   top: 25px;
   position: absolute;
 }
+
 .btn-popular:hover {
   background-color: #ca2c37;
 }
@@ -886,9 +892,11 @@ a.brand {
 .services p {
   margin-bottom: 70px;
 }
+
 .services ul {
   list-style: none;
 }
+
 .tabs {
   display: block;
   position: relative;
@@ -901,6 +909,7 @@ a.brand {
   font-size: 21px;
   line-height: 30px;
 }
+
 .tabs:hover {
   background-color: #293449;
 }
